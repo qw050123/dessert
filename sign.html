@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>六角甜點工坊</title>
+    <link rel="stylesheet" href="stylesheet/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+        integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: PingFangTC-Regular, sans-serif;
+        }
+    </style>
+</head>
+<!--
+https://bit.ly/2OhbMHr 大蒜吐司
+https://bit.ly/2zBDAxX 草莓蛋糕
+https://bit.ly/2R5tqwD 馬卡龍
+https://bit.ly/2Qodh3Z 巧克力(單塊，刀)
+https://bit.ly/2Dwoxd7 白派
+https://bit.ly/2QiWeQW 奇異果冰
+https://bit.ly/2OUteif 螺旋小點心
+https://bit.ly/2NcDVuB 三個小蛋糕
+https://bit.ly/2xPn7Eq 霜粉圓餅
+https://bit.ly/2zL5jN7 草莓杯
+https://bit.ly/2zzAQS4 檸檬燉飯
+https://bit.ly/2zKOP7w 草莓鬆餅
+https://bit.ly/2zBjQuq 小甜甜圈
+https://bit.ly/2QvsT63 草莓杯(右環)
+https://bit.ly/2QbVsVR 藍莓杯
+https://bit.ly/2P7GhNd 中間空空
+https://bit.ly/2JfcG2C 三杯飲料
+-->
+
+<body>
+    <div class="container px-0"><!--導覽列-->    
+        <nav class="navbar navbar-expand-md navbar-light bg-white px-0">
+            <a class="navbar-brand d-none d-md-flex order-2 order-md-1 " href="index.html">
+                <img src="image/logo-all-dark.svg" height="40" alt="">
+            </a>
+            <a class="navbar-brand d-md-none order-2" href="index.html">
+                <img src="image\logotype-sm-dark.svg" height="40" alt="">
+            </a>
+            <button class="navbar-toggler order-1 ml-3 " type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-md-2 order-4" id="navbarNav">
+                <ul class="navbar-nav ml-md-auto ml-3 ">
+                    <li class="nav-item ">
+                        <a class="nav-link pr-md-30 pl-md-0" href="index.html">首頁 <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link px-md-30" href="dessert.html">甜點</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link pl-md-30 pr-md-0" href="sign.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-nav order-3">
+                <a href="cart.html" class="nav-item nav-link pl-md-80 mr-3 pr-md-0"><i class="fas fa-cart-plus"></i></a>
+            </div>
+        </nav>
+    </div><!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+    <div class="container-fluid pt-30"><!--登入介面-->       
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 d-md-none d-block px-0"><!--middle-->               
+                <div class="container px-0">
+                    <div class="bg-primary">
+                        <div class="d-flex justify-content-center">
+                            <div class="py-30 text-back">會員登入</div>
+                        </div>
+                    </div>
+                    <div class="bg-back p-30">
+                        <div class="bg-white">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-4 py-3 px-3">
+                                    <button class="btn">
+                                        <img class="img-fluid" src="image\ic-facebook-logotype.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="col-4 py-3 px-3">
+                                    <button class="btn">
+                                        <img class="img-fluid" src="image\ic-google.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="col-4 py-3 px-3">
+                                    <button class="btn">
+                                        <img class="img-fluid" src="image\ic-yahoo.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-primary">
+                        <div class="d-flex px-30 pt-30 pb-3">
+                            <div class="bg-back">
+                                <i class="fas fa-user p-4"></i>
+                            </div>
+                            <input type="mail" class="bg-back  py-3 clear-border" style="width: 100%;"
+                            placeholder="電子信箱/手機號碼">
+                        </div>
+                        <div class="d-flex px-30">
+                            <div class="bg-back">
+                                <i class="fas fa-key p-4"></i>
+                            </div>
+                            <input type="mail" class="bg-back  py-3 clear-border" style="width: 100%;"
+                            placeholder="請輸入使用者密碼">
+                        </div>
+                        <div class="d-flex pl-30 pt-3 pb-10">
+                            <input type="checkbox" name="" id="remenber-me" style="width: 24px; height:24px;">
+                            <label class="text-white pl-2" for="remenber-me">記住我</label>
+                        </div>
+                    </div>
+                    <a href="index.html" class="btn bg-success clear-border py-3 w-100 font-24">登入帳號</a>
+                </div>
+            </div><!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+            <div class="container pb-80 d-md-block d-none"><!--computer-->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-6 bg-primary my-d20 px-0">
+                                <div class="container bg-primary px-30">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="py-30 text-back font-24">會員登入</div>
+                                    </div>
+                                    <div class="d-flex pt-30 pb-20">
+                                        <div class="bg-back">
+                                            <i class="fas fa-user p-4"></i>
+                                        </div>
+                                        <input type="mail" class="bg-back  py-3 clear-border" style="width: 100%;"
+                                            placeholder="電子信箱/手機號碼">
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="bg-back">
+                                            <i class="fas fa-key p-4"></i>
+                                        </div>
+                                        <input type="password" class="bg-back  py-3 clear-border" style="width: 100%;"
+                                            placeholder="請輸入使用者密碼">
+                                    </div>
+                                    <div class="d-flex  pt-3">
+                                        <input type="checkbox" name="" id="remenber-me"
+                                            style="width: 24px; height:24px;">
+                                        <label class="text-white pl-2" for="remenber-me">記住我</label>
+                                    </div>
+                                </div>
+                                <a href="index.html" class="btn bg-success clear-border py-3 w-100 font-24">登入帳號</a>
+                            </div>
+                            <div class="col-6 bg-back d-flex justify-content-center" style=" height:350px;">
+                                <div class="container p-30">
+                                    <div class="font-24 mt-10 py-3 text-secondary text-center d-lg-block d-none">—— 連結社群帳號 ——</div>
+                                    <div class="font-24 mt-10 py-3 text-secondary text-center d-block d-lg-none">連結社群帳號</div>
+                                    <button class="btn bg-white my-2 w-100" style="height: 56px;">
+                                        <img src="image\ic-facebook-logotype.svg" style="width:108px;" alt="" class="img-fluid">
+                                    </button>
+                                    <button class="btn bg-white w-100 my-2" style="height: 56px;">
+                                        <img src="image\ic-google.svg" style="width:94px;" alt="" class="img-fluid">
+                                    </button>
+                                    <button class="btn bg-white w-100 my-2" style="height: 56px;">
+                                        <img src="image\ic-yahoo.svg"style="width:97px;" alt="" class="img-fluid">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+        </div>
+    </div><!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+    
+
+    <div class="container-fluid bg-primary"><!--郵件區塊-->       
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-5  py-20">
+                    <div class="d-flex align-items-center justify-content-md-start justify-content-center h-100">
+                        <img src="image\logo-light.svg" height="40" alt="">
+                        <div class="font-24 text-back pl-3">訂閱你我的甜蜜郵件</div>
+                    </div>
+                </div>
+                <div class="col-md-5  py-20 h-100">
+                    <div class="d-flex">
+                        <div class="bg-back">
+                            <i class="fas fa-envelope p-4"></i>
+                        </div>
+                        <input type="mail" class="bg-back font-24 py-3 clear-border" style="width: 100%;"
+                            placeholder="">
+                        <div class="bg-success">
+                            <i class="fas fa-arrow-right p-4"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+    
+    <div class="container-fluid bg-back"><!--底部區塊-->       
+        <div class="container">
+            <div class="row d-flex justify-content-center pt-30">
+                <div class="col-12 col-md-5 pb-80 pb-md-0">
+                    <div class="h-100 d-flex flex-column justify-content-between">
+                        <div class="">
+                            <img src="image\logotype-sm-dark.svg" height="27" alt="">
+                        </div>
+                        <div class="text-primary">
+                            <div>07-1234-5678</div>
+                            <a href="" class="text-decoration-none">sweetaste@email.com</a>
+                            <div>800 高雄市新興區幸福路 520 號</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 d-none d-md-block">
+                    <div class="text-right h-100">
+                        <img src="image\sm-今天是個吃甜點的好日子.svg" height="220" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 my-md-30">
+                    <div class="d-flex">
+                        <img src="image\ic-line@.svg" height="24" alt="">
+                        <img class="pl-1" src="image\ic-facebook.svg" height="24" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 my-30">
+                    <div class="text-md-right">© 2018 Sweetaste* All Rights Reserved</div>
+                </div>
+            </div>
+        </div>
+    </div><!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
