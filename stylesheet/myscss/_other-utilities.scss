@@ -1,0 +1,40 @@
+.write-vertical {
+    writing-mode: vertical-rl;
+}
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);   
+        .write#{$infix}-vertical   { writing-mode: vertical-rl !important; }
+    }
+}
+    
+.b-img {
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.clear-border {
+    border: 0px none white;
+}
+
+.border-secondary {
+    border: 1px solid $secondary;
+}
+
+.border-back {
+    border: 1px solid $back;
+    border-radius: 0;
+}
+
+.btn-group-center-border {
+    border-width: 0px 1px;
+    border-color: $secondary;
+    border-style: solid;
+}
+
+

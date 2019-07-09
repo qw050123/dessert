@@ -1,0 +1,14 @@
+.card-h315 {
+    height: 315px;
+}
+.card-content {
+    font-size: 20px;
+    flex-grow: 1;
+    border-width: $card-border-width;
+    border-style: solid;
+    border-color: $card-border-color;
+}
+
+.border-left-0 {
+    border-left: 0px solid white;
+}
