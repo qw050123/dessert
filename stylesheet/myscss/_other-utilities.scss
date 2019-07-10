@@ -36,5 +36,18 @@
     border-color: $secondary;
     border-style: solid;
 }
-
+.cart-list-title {
+    background-color: $back;
+    color: $primary;
+}
+@media (min-width: 768px) {
+    .cart-list-color {
+        background-color: #3F5D45;
+        color: white;
+    }
+    .cart-list-title {
+        background-color: #3F5D45;
+        color: white;
+    }
+}
 
