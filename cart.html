@@ -12,7 +12,7 @@
     <style>
         body {
             font-family: PingFangTC-Regular, sans-serif;
-            color : #3F5D45;
+            color: #3F5D45;
         }
     </style>
 </head>
@@ -37,7 +37,8 @@ https://bit.ly/2JfcG2C 三杯飲料
 -->
 
 <body>
-    <div class="container px-0"><!--導覽列-->    
+    <div class="container">
+        <!--導覽列-->
         <nav class="navbar navbar-expand-md navbar-light bg-white px-0">
             <a class="navbar-brand d-none d-md-flex order-2 order-md-1 " href="index.html">
                 <img src="image/logo-all-dark.svg" height="40" alt="">
@@ -64,83 +65,109 @@ https://bit.ly/2JfcG2C 三杯飲料
                 </ul>
             </div>
             <div class="navbar-nav order-3">
-                    <a href="cart.html" class="nav-item nav-link pl-md-80 mr-3 pr-md-0"><i class="fas fa-cart-plus"></i></a>
+                <a href="cart.html" class="nav-item nav-link pl-md-80 mr-3 pr-md-0"><i class="fas fa-cart-plus"></i></a>
             </div>
         </nav>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8 mb-30"><!--購物細節-->
+            <div class="col-md-8 mb-30">
+                <!--購物細節-->
                 <div class="container">
                     <div class="bg-back text-center font-24 py-3 mb-30">
                         <div class="">您的購物車</div>
                     </div>
                     <div class="d-flex align-items-center justify-content-between">
-                        <img class="box-110 " src="https://bit.ly/2QvsT63" alt="">
-                        <div class=""><p class="m-0">草莓杯杯</p><p class="m-0">NT$ 450</p></div>
+                        <div class="b-img box-110" style="background-image: url(https://bit.ly/2QvsT63)"></div>
+                        <div class="">
+                            <p class="m-0">草莓杯杯</p>
+                            <p class="m-0">NT$ 450</p>
+                        </div>
                         <div class="btn-group border-secondary ">
                             <button type="button" class="btn btn-white text-secondary box-48">-</button>
-                            <button type="button" class="btn btn-white text-secondary btn-group-center-border box-48">2</button>
+                            <button type="button"
+                                class="btn btn-white text-secondary btn-group-center-border box-48">2</button>
                             <button type="button" class="btn btn-white text-secondary box-48">+</button>
                         </div>
                         <div class=" font-20">NT$ 900</div>
-                        <div ><i class="fas fa-trash-alt"></i></div>
+                        <div class="d-none d-md-inline-block"><i class="fas fa-trash-alt"></i></div>
                     </div>
                     <hr class="my-3" style="border-color: #aaaaaa">
                     <div class="d-flex align-items-center justify-content-between">
+
                         <img class="box-110 " src="https://bit.ly/2QvsT63" alt="">
-                        <div class=""><p class="m-0">草莓杯杯</p><p class="m-0">NT$ 450</p></div>
+                        <div class="">
+                            <p class="m-0">草莓杯杯</p>
+                            <p class="m-0">NT$ 450</p>
+                        </div>
+
                         <div class="btn-group border-secondary ">
                             <button type="button" class="btn btn-white text-secondary box-48">-</button>
-                            <button type="button" class="btn btn-white text-secondary btn-group-center-border box-48">2</button>
+                            <button type="button"
+                                class="btn btn-white text-secondary btn-group-center-border box-48">2</button>
                             <button type="button" class="btn btn-white text-secondary box-48">+</button>
                         </div>
+
                         <div class=" font-20">NT$ 900</div>
-                        <div ><i class="fas fa-trash-alt"></i></div>
+
+                        <div class="d-none d-md-inline-block"><i class="fas fa-trash-alt"></i></div>
                     </div>
                     <hr class="my-3" style="border-color: #aaaaaa">
+
                     <div class="d-flex align-items-center justify-content-between">
                         <img class="box-110 " src="https://bit.ly/2QvsT63" alt="">
-                        <div class=""><p class="m-0">草莓杯杯</p><p class="m-0">NT$ 450</p></div>
-                        <div class="btn-group border-secondary ">
-                            <button type="button" class="btn btn-white text-secondary box-48">-</button>
-                            <button type="button" class="btn btn-white text-secondary btn-group-center-border box-48">2</button>
-                            <button type="button" class="btn btn-white text-secondary box-48">+</button>
+                        <div class="d-flex">
+                            <div class="mr-50">
+                                <p class="m-0">草莓杯杯</p>
+                                <p class="m-0">NT$ 450</p>
+                            </div>
+                            <div class="btn-group border-secondary ">
+                                <button type="button" class="btn btn-white text-secondary box-48">-</button>
+                                <button type="button"
+                                    class="btn btn-white text-secondary btn-group-center-border box-48">2</button>
+                                <button type="button" class="btn btn-white text-secondary box-48">+</button>
+                            </div>
                         </div>
+                        
                         <div class=" font-20">NT$ 900</div>
-                        <div ><i class="fas fa-trash-alt"></i></div>
+                        <div class="d-none d-md-inline-block"><i class="fas fa-trash-alt"></i></div>
                     </div>
-                    
+
                 </div>
             </div>
-            <div class="col-md-4"><!--結帳清單-->
-                <div class="container  cart-list-color py-3 px-20">
-                    <div class="cart-list-title text-center font-24 pb-3">訂單摘要</div>
-                    <hr class="mt-0" style="border-color: white">
-                    <div class="d-flex justify-content-between ">
-                        <p class="m-0">小計</p>
-                        <p class="m-0">NT$ 2,700</p>
+            <div class="col-md-4">
+                <!--結帳清單-->
+                <div class="container">
+                    <div class="cart-list-color py-3 px-20">
+                        <div class="cart-list-title text-center font-24 pb-3">訂單摘要</div>
+                        <hr class="mt-0" style="border-color: white">
+                        <div class="d-flex justify-content-between ">
+                            <p class="m-0">小計</p>
+                            <p class="m-0">NT$ 2,700</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-between ">
+                            <p class="m-0">運費</p>
+                            <p class="m-0">NT$ 300</p>
+                        </div>
+                        <div class="pt-3 d-flex justify-content-between  font-20">
+                            <p class="m-0">總計</p>
+                            <p class="m-0">NT$ 3,000</p>
+                        </div>
                     </div>
-                    <div class="pt-3 d-flex justify-content-between ">
-                        <p class="m-0">運費</p>
-                        <p class="m-0">NT$ 300</p>
-                    </div>
-                    <div class="pt-3 d-flex justify-content-between  font-20">
-                        <p class="m-0">總計</p>
-                        <p class="m-0">NT$ 3,000</p>
+                    <div class="mx-n20 mx-md-0">
+                        <a href="pay.html" class="btn bg-success clear-border py-3 w-100 font-24">結帳</a href="pay.html">
                     </div>
                 </div>
-                <div class="mx-n10 mx-md-0">
-                    <a href="pay.html" class="btn bg-success clear-border py-3 w-100 font-24">結帳</a href="pay.html">
-                </div>
+
             </div>
-            
+
         </div>
     </div>
-    
 
-    <div class="container-fluid bg-primary"><!--郵件區塊-->       
+
+    <div class="container-fluid bg-primary">
+        <!--郵件區塊-->
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-5  py-20">
@@ -164,8 +191,9 @@ https://bit.ly/2JfcG2C 三杯飲料
             </div>
         </div>
     </div>
-    
-    <div class="container-fluid bg-back"><!--底部區塊-->       
+
+    <div class="container-fluid bg-back">
+        <!--底部區塊-->
         <div class="container">
             <div class="row d-flex justify-content-center pt-30">
                 <div class="col-12 col-md-5 pb-80 pb-md-0">
